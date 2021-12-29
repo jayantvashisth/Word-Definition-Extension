@@ -5,7 +5,7 @@ function receiver(exactText, sender, sendResponse) {
     console.log(exactText);
     word=exactText;
     let url = 'https://api.dictionaryapi.dev/api/v2/entries/en/' + exactText;
-    console.log(url);
+    // console.log(url);
     fetch(url)
         .then(res => res.json())
         .then(data => {

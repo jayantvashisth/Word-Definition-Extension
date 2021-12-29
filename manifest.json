@@ -14,7 +14,7 @@
         "scripts":["background.js"]
     },
     "browser_action":{
-        "default_icon":"final_btn.png",
+        "default_icon":"btn.png",
         "default_popup": "popup.html", 
         "default_title": "loading...."
     }
